@@ -1,0 +1,119 @@
+===============================================
+Everjoe Linux Dictionary - Documentation
+===============================================
+Version: 1.0.0
+Last Updated: 26/04/2025
+
+A comprehensive command-line reference tool for Linux users
+
+1. Overview
+-----------
+Everjoe Linux Dictionary is a terminal-based reference tool containing:
+- 100+ Linux commands with detailed explanations
+- Command syntax and usage examples
+- Organized categories for quick lookup
+- Search functionality for instant access
+
+2. Features
+-----------
+- Offline access to Linux command documentation
+- Categorized commands (File, Network, System, etc.)
+- Quick search functionality
+- Practical usage examples
+- Regular updates with new commands
+- Cross-platform compatibility
+
+3. Getting Started
+------------------
+3.1 Installation
+----------------
+[Include installation instructions specific to your app]
+
+3.2 Basic Usage
+---------------
+$ everjoe --help        # Show help menu
+$ everjoe --version     # Display version info
+$ everjoe --update      # Update command database
+
+4. Main Functions
+-----------------
+4.1 Search Commands
+-------------------
+$ everjoe search [keyword]
+Example:
+$ everjoe search "grep"
+
+4.2 List Categories
+-------------------
+$ everjoe categories
+
+4.3 View Command Details
+------------------------
+$ everjoe show [command]
+Example:
+$ everjoe show "ssh"
+
+4.4 List All Commands
+---------------------
+$ everjoe list
+
+5. Command Categories
+---------------------
+5.1 File Management
+-------------------
+- ls, cp, mv, rm, chmod, chown, find, locate
+
+5.2 System Monitoring
+---------------------
+- top, ps, free, df, du, lsof
+
+5.3 Network Utilities
+---------------------
+- ping, curl, wget, ssh, netstat, ifconfig
+
+5.4 Text Processing
+-------------------
+- grep, sed, awk, cut, sort, uniq
+
+5.5 User Management
+-------------------
+- useradd, passwd, chgrp, sudo, whoami
+
+6. Example Use Cases
+--------------------
+6.1 File Operations
+-------------------
+$ everjoe show "rsync"
+$ everjoe search "compression"
+
+6.2 System Diagnostics
+----------------------
+$ everjoe show "top"
+$ everjoe search "memory"
+
+6.3 Network Troubleshooting
+---------------------------
+$ everjoe show "traceroute"
+$ everjoe search "DNS"
+
+7. Troubleshooting
+------------------
+Issue: Command not found
+Solution: Update database with `everjoe --update`
+
+Issue: No results found
+Solution: Try different search terms or check spelling
+
+Issue: Permission denied
+Solution: Run with sudo privileges if required
+
+8. Support & Updates
+--------------------
+Maintainer: [Your Name/Organization]
+Contact: support@everjoe.com
+Website: www.everjoe.com/linux-dict
+GitHub: github.com/everjoe/linux-dictionary
+
+===============================================
+[End of Documentation]
+===============================================
