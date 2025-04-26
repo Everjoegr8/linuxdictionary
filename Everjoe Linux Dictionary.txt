@@ -109,9 +109,9 @@ Solution: Run with sudo privileges if required
 
 8. Support & Updates
 --------------------
-Maintainer: [Your Name/Organization]
+Maintainer: EGWU JOSEPH NNANNA | ERATechnologiz and Engineering Services
 Contact: support@everjoe.com
-Website: www.everjoe.com/linux-dict
+Website: www.smartechkid.tech/linux-dict
 GitHub: github.com/everjoe/linux-dictionary
 
 ===============================================
